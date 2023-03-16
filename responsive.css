@@ -1,0 +1,66 @@
+/* tablet */
+@media screen and (max-width: 1050px) {
+  .card {
+    width: 50%;
+  }
+  .left-text {
+    text-align: left;
+    font-size: 10px;
+  }
+  .bi-list {
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+}
+
+/* handphone */
+@media screen and (max-width: 700px) {
+  .card {
+    width: 100%;
+  }
+  .left-text {
+    text-align: center;
+    font-size: 10px;
+  }
+  .left-text h3 {
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  .bi-list {
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+  main form {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
+
+  main input {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  footer{
+    width: 100%;
+    bottom: 0;
+    height: 180px;
+  }
+
+  .info {
+    margin-right: 0;
+    font-size: 12px;
+  }
+
+  .footer-left p{
+    padding-top: 10px;
+  }
+}
