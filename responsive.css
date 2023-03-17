@@ -47,7 +47,7 @@
   }
 
   header ul {
-    display: none;
+    display: block;
   }
     
     .top-wrapper h1 {
@@ -60,9 +60,5 @@
       font-size: 14px;
       line-height: 20px;
       text-align: center;
-    }
-
-    footer {
-      width: 100%;
     }
   }  
