@@ -1,19 +1,4 @@
-@media all and (max-width: 1000px) {
-    .lesson {
-      width: 50%;
-      margin-bottom: 50px;
-    }
-    
-    .top-wrapper h1 {
-      font-size: 32px;
-    }
-    
-    .heading h2 {
-      font-size: 20px;
-    }
-  }
-  
-  /* Untuk Smartphone */
+/* Untuk Smartphone */
   @media all and (max-width: 650px) {
     
     li {
@@ -74,7 +59,10 @@
     }
 
     footer {
-      
-      height: 100px;
+      height: 300px;
+ 
+    .container {
+      height: 300px;
     }
+
   }  
