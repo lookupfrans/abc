@@ -1,66 +1,232 @@
-/* tablet */
-@media screen and (max-width: 1050px) {
-  .card {
-    width: 50%;
+* {
+    box-sizing: border-box;
   }
-  .left-text {
-    text-align: left;
-    font-size: 10px;
+  
+  body {
+    font-family: "Lucida Grande";
+    margin: 0px;
+    padding: 0px;
   }
-  .bi-list {
-    display: block;
-  }
-  .navbar ul {
-    display: none;
-  }
-}
-
-/* handphone */
-@media screen and (max-width: 700px) {
-  .card {
+  
+  .header {
+    height: 90px;
     width: 100%;
-  }
-  .left-text {
-    text-align: center;
-    font-size: 10px;
-  }
-  .left-text h3 {
-    width: 100px;
-    margin: 0 auto;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
   }
 
-  .bi-list {
-    display: block;
+  .header-logo {
+    font-size: 40px;
+    margin-top: 5px;
+    padding-top: 25px;
+    padding-left: 35px;
+    background-color: none;
+    margin-left: 0xpx;
+    float: left;
+    z-index: 10;
+    opacity: 0.8;
   }
-  .navbar ul {
+  .menu-icon {
     display: none;
-  }
-  main form {
+
+  li {
+    float: left;
     display: block;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-    width: 200px;
+    margin-top: 0px;
+    padding-left: 200px;
+    padding-top: 30px;
+    opacity: 0.8;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    margin: 0px;
+    text-decoration: underline;
+    padding-bottom: 100px;
   }
 
-  main input {
-    padding-left: 15px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  footer{
-    width: 100%;
-    bottom: 0;
-    height: 180px;
-  }
-
-  .info {
-    margin-right: 0;
-    font-size: 12px;
-  }
-
-  .footer-left p{
+  .log-in {
+    float: right;
+    background-color: brown;
+    color: white;
+    opacity: 0.8;
+    font-weight: bold;
+    margin-right: 60px;
+    margin-left: 40px;
+    margin-top: 15px;
     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
-}
+  
+  .log-in:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: blocK;
+    cursor: pointer;
+    opacity: 1;
+    background-color: grey
+  }
+
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;  
+  }
+
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url();
+    background-size: cover;
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+  }
+
+  .child {
+    text-align: center;
+  }
+
+  .content-wrapper {
+    background-color: #f7f7f;
+    height: 0px;
+    padding-bottom: 150px;
+    left: 20px; 
+    text-align: center;
+  }
+
+  .content-wrapper h2 {
+    padding-bottom: 50px;
+    opacity: 0.8;
+    border-width: thick;
+    border-bottom: red;
+    opacity: 0.8;
+  }
+
+  .list-wrapper {
+    float: left;
+    width: 25%;
+    background-color: brown;
+    opacity: 0.7;
+    height: 450px;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+  }
+
+  .list-icon p {
+    position: relative;
+    width: 100%;
+    color: white;
+    top : 40px;
+    padding-left: 140px;
+    padding-left: 40px;
+  }
+
+  .list-icon {
+    position: relative;
+  }
+
+  img {
+    padding-top: 50px;
+    padding-right: 40px;
+    width: 70%;
+    height: 250px;
+    justify-content: center;
+    float: left;
+    margin-left : 70px;
+    position: relative;
+  }
+
+  p {
+    display: inline-block;
+    margin-left: 75px;
+    width: 60%;
+  }
+
+  .list-icon p {
+    margin-right: 50px;
+  }
+  
+  .message-wrapper {
+    text-align: center;
+    padding-bottom: 0px;
+    opacity: 0.8;
+  }
+
+  .message-wrapper h1 {
+    margin-top: 90px;
+  }
+  
+  h3 {
+    margin-bottom: 90px; 
+    opacity: 0.8;
+  }
+
+  .btn {
+    background-color: brown;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    display: inline-bloc;
+    height: 25px;
+    left: 25px;
+    width: 150px;
+    opacity: 0.8;
+  }
+
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.8;
+  }
+  
+  .word {
+    font-size: 50px;
+    padding-top: 90px;
+  }
+
+  .message:act {
+    position: absolute;
+    top: 7px;
+    bottom: 7px;
+    box-shadow: none;
+  }
+
+  .btn:hover {
+    background-color: brown;
+    color:white;
+    opacity: 0.8;
+    font-weight: bold;
+    position: block;
+    cursor: pointer;
+    background-color: grey;
+  }
+
+  a {
+    padding-left: 20px;
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+    direction: none;
+  }
+
+  footer {
+    float: left;
+    background-color: rgba(34, 49, 52, 0.9);
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding-right: 150px;
+  }
+  .footer-logo {
+    opacity: 0.8;
+    font-size: 40px;
+  }
