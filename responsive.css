@@ -19,22 +19,18 @@
       width: 100%;
     }
     
-    footer {
-      text-align: center;
-    }
-    
-    .btn {
-      width: 100%;
-    }
-    
-    .facebook {
-      margin-bottom: 10px;
-    }
-    
     .top-wrapper {
       text-align: left;
       width: 100%;
     }
+      
+    header li {
+       display: none;
+  }
+
+    header ul {
+       display: none; 
+      }
     
     li {
       display: none;
