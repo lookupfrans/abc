@@ -34,15 +34,7 @@
     .top-wrapper {
       text-align: left;
     }
-    
-    /* Tambahkan CSS untuk header-right */
-    
-    /* Tambahkan CSS untuk menu-icon */
-    .menu-icon {
-      display: block;
-    /* Gantikan property display ke none */
-  }
-    
+      
     .top-wrapper h1 {
       font-size: 24px;
       line-height: 36px;
