@@ -45,10 +45,6 @@
       display: block;
     /* Gantikan property display ke none */
   }
-
-  header ul {
-    display: block;
-  }
     
     .top-wrapper h1 {
       font-size: 24px;
