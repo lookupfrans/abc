@@ -33,6 +33,14 @@
     
     .top-wrapper {
       text-align: left;
+      width: 100%;
+    }
+    
+    li {
+      display: none;
+    }
+    ul {
+      display: none;
     }
       
     .top-wrapper h1 {
